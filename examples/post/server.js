@@ -1,7 +1,7 @@
 module.exports = function (req, res) {
   var data = '';
   
-  req.on('data', function (chunk) {    data+=chunk;});
+  req.on('data', function (chunk) {      data+=chunk;});
 
   req.on('end', function () {
     console.log('POST data received');

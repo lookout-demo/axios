@@ -4,6 +4,4 @@ import "fmt"
 
 type Empty struct{}
 
-func main() {
-  fmt.Println("Hello")
-}
+func main() { fmt.Println("Hello") }

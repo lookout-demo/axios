@@ -6,7 +6,8 @@ var argv = require('minimist')(process.argv.slice(2));
 var server;
 var dirs;
 
-function listDirs(root) {
+function listDirs(root)
+{
   var files = fs.readdirSync(root);
   var dirs = [];
 

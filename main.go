@@ -5,6 +5,5 @@ import "fmt"
 type Empty struct{}
 
 func main() {
-fmt.Println("Hello")
-
+  fmt.Println("Hello")
 }

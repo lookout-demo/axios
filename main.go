@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
-type Empty struct{}
+type Empty
+
+struct{}
 
 func main() { fmt.Println("Hello") }
